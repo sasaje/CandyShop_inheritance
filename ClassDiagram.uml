@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CandyShopStock.CandyCategory</OriginalElement>
+  <nodes>
+    <node x="102.15312499999999" y="80.0">CandyShopStock.PieceOfCandy</node>
+    <node x="0.0" y="543.0">CandyShopStock.Twix</node>
+    <node x="175.653125" y="0.0">CandyShopStock.CandyType</node>
+    <node x="318.153125" y="543.0">CandyShopStock.Marabou</node>
+    <node x="441.153125" y="543.0">CandyShopStock.Twister</node>
+    <node x="543.0" y="618.0">CandyShopStock.Main</node>
+    <node x="140.153125" y="543.0">CandyShopStock.Vingummibamser</node>
+    <node x="388.153125" y="80.0">CandyShopStock.PieceOfCandyInterface</node>
+    <node x="296.0" y="618.0">CandyShopStock.Storage</node>
+    <node x="0.0" y="618.0">CandyShopStock.CandyCategory</node>
+    <node x="602.1875" y="543.0">CandyShopStock.SkipperMix</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CandyShopStock.Twister" target="CandyShopStock.PieceOfCandyInterface">
+      <point x="25.75" y="-15.0" />
+      <point x="518.403125" y="523.0" />
+      <point x="550.5531250000001" y="523.0" />
+      <point x="46.40000000000009" y="181.5" />
+    </edge>
+    <edge source="CandyShopStock.Twix" target="CandyShopStock.PieceOfCandyInterface">
+      <point x="20.0" y="-15.0" />
+      <point x="60.0" y="503.0" />
+      <point x="411.353125" y="503.0" />
+      <point x="-92.80000000000001" y="181.5" />
+    </edge>
+    <edge source="CandyShopStock.Twix" target="CandyShopStock.PieceOfCandy">
+      <point x="-20.0" y="-15.0" />
+      <point x="20.0" y="493.0" />
+      <point x="128.75312499999998" y="493.0" />
+      <point x="-106.4" y="181.5" />
+    </edge>
+    <edge source="CandyShopStock.PieceOfCandy" target="CandyShopStock.CandyType">
+      <point x="0.0" y="-181.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="CandyShopStock.SkipperMix" target="CandyShopStock.PieceOfCandyInterface">
+      <point x="31.500000000000057" y="-15.0" />
+      <point x="696.6875" y="463.0" />
+      <point x="596.953125" y="463.0" />
+      <point x="92.80000000000007" y="181.5" />
+    </edge>
+    <edge source="CandyShopStock.Twister" target="CandyShopStock.PieceOfCandy">
+      <point x="-25.75" y="-15.0" />
+      <point x="466.903125" y="483.0" />
+      <point x="288.353125" y="483.0" />
+      <point x="53.19999999999999" y="181.5" />
+    </edge>
+    <edge source="CandyShopStock.SkipperMix" target="CandyShopStock.PieceOfCandy">
+      <point x="-31.499999999999943" y="-15.0" />
+      <point x="633.6875" y="473.0" />
+      <point x="341.55312499999997" y="473.0" />
+      <point x="106.39999999999998" y="181.5" />
+    </edge>
+    <edge source="CandyShopStock.Vingummibamser" target="CandyShopStock.PieceOfCandyInterface">
+      <point x="39.5" y="-15.0" />
+      <point x="258.653125" y="513.0" />
+      <point x="457.753125" y="513.0" />
+      <point x="-46.39999999999998" y="181.5" />
+    </edge>
+    <edge source="CandyShopStock.Vingummibamser" target="CandyShopStock.PieceOfCandy">
+      <point x="-39.5" y="-15.0" />
+      <point x="179.653125" y="493.0" />
+      <point x="181.953125" y="493.0" />
+      <point x="-53.19999999999999" y="181.5" />
+    </edge>
+    <edge source="CandyShopStock.Marabou" target="CandyShopStock.PieceOfCandy">
+      <point x="-25.75" y="-15.0" />
+      <point x="343.903125" y="493.0" />
+      <point x="235.153125" y="493.0" />
+      <point x="0.0" y="181.5" />
+    </edge>
+    <edge source="CandyShopStock.Marabou" target="CandyShopStock.PieceOfCandyInterface">
+      <point x="25.75" y="-15.0" />
+      <point x="395.403125" y="523.0" />
+      <point x="504.153125" y="523.0" />
+      <point x="0.0" y="181.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6375757575757576" x="364.5" y="402.5" />
+  <SelectedNodes>
+    <node>CandyShopStock.CandyCategory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
